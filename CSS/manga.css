@@ -1,0 +1,138 @@
+body {
+  background-image: url(/img/fundo\ anime\ vivo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.Busca {
+  float: right;
+  margin: 36px;
+  height: auto;
+  margin-top: 5px;
+}
+.Busca input {
+  height: 20px;
+  margin-top: 10px;
+  padding: 7px;
+  padding-left: 40px;
+  border-radius: 90px;
+}
+
+.menu {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 70px;
+  border-bottom: 3px solid white;
+}
+main {
+  margin: 0 auto;
+  width: 1400px;
+  position: relative;
+}
+.logo {
+  float: left;
+}
+.nome {
+  color: white;
+  width: 80%;
+  float: left;
+  font-size: 40px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu-navegaçao a {
+  margin: 5px;
+  padding: px;
+  color: rgb(3, 3, 3);
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+}
+.menu-navegaçao li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.menu2 {
+  width: 100%;
+}
+
+.header2 {
+  display: flex;
+  width: 100%;
+  max-width: 2000px;
+  background: rgb(12, 1, 14);
+  box-shadow: 0 0 1.1rem black;
+  margin: 20px;
+  color: white;
+}
+
+.lista {
+  width: 100%;
+  display: flex;
+  padding: 50px;
+  margin: 10px;
+  color: white;
+  float: left;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.nominal_apb {
+  text-align: center;
+  margin: 0 0 5px;
+  padding: 1px 0;
+}
+.nominal_apb a {
+  display: block;
+  width: 26.7px;
+  float: left;
+  background: #424242;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px 0;
+}
+.nominal_apb a:hover {
+  background: #2977be;
+  text-decoration: none;
+}
+.filter-kata {
+  position: relative;
+  margin-bottom: 10px;
+}
+.judul-filter {
+  font-family: segoe ui;
+  font-weight: 700;
+  color: #333;
+  font-size: 13px;
+  border-bottom: 2px solid #2977be;
+  margin-bottom: 5px;
+  background: none;
+  text-transform: uppercase;
+  position: relative;
+  padding: 5px;
+}
+.judul-filter a {
+  color: #ffffff;
+}
+.filter-column {
+  float: left;
+  line-height: 21px;
+  width: 308px;
+  color: #000;
+  padding-left: 16px;
+}
+.judul-anim {
+  line-height: 21px;
+  font-weight: 300;
+  display: list-item;
+}
+.judul-anim a {
+  font-size: 12px;
+  color: #2e2e2e;
+  font-family: segoe ui;
+}
